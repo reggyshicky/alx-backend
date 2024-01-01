@@ -4,7 +4,7 @@ Module 0-simple_helper_function
 """
 
 
-def index_range(page:int, page_size:int) -> tuple:
+def index_range(page: int, page_size: int) -> tuple:
     """
     Takes two integer arguments page and page size.
     Returns a tuple of size two containing a start
