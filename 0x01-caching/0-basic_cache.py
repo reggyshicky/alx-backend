@@ -11,7 +11,7 @@ class BasicCache(BaseCaching):
     BasicCache module:
     Inherits from the BaseCaching module
     """
-    def __int__(self):
+    def __init__(self):
         """Initializr class BasicCache"""
         super().__init__()
         self.cache_data = {}
