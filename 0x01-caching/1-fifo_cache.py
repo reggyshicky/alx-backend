@@ -36,5 +36,5 @@ class FIFOCache(BaseCaching):
         None if the key is not in the cache
         """
         if key in self.cache_data:
-            return self.cache_data[ket]
+            return self.cache_data[key]
         return None
