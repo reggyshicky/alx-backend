@@ -1,10 +1,10 @@
-import redis from 'redis';
+iimport redis from 'redis';
 import util from 'util'; // Import the util module
 
 
 const client = redis.createClient();
 
-// client = redis.createClient();
+// client = redis.createClient();;
 
 client.on('error', (err) => console.log(`Redis client not connected to the server: ${err}`));
 
